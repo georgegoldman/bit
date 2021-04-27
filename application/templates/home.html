@@ -1,0 +1,130 @@
+{% extends 'index.html' %}
+{% block content %}
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{url_for('static', filename='imgs/carousel/pexels-worldspectrum-844124.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>MAKE <b>DEPOSIT</b> AND <b>PROCESS</b> <b>WITHDRAWAL</b> WITH <b><em>BITCOIN <i class="fab fa-bitcoin"></i></em></b></h5>
+            <p>
+                <a href="#"><button type="button" class="btn btn-outline-info me-xl-2">Open Account</button></a>
+            </p>
+          </div>
+      </div>
+      <div class="carousel-item text">
+        <img src="{{url_for('static', filename='imgs/carousel/pexels-worldspectrum-1099339.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>COINBINARYOPTION</b></h5>
+          <p><b>Trade Stocks, Forex, Options and Crypto</b></p>
+          <p>
+              <a href="#"><button type="button" class="btn btn-outline-success me-xl-2">Trade Now</button></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="col-xl-2"></div>
+  <div class="col-xl-8">
+    <div class="row p-xl-5 bg-info my-5">
+        <div class="col-xl-4 ">
+            <span class="material-icons-round">
+                app_registration
+                </span>
+            <h3>Register</h3>
+                    <p>
+                        Open Account for free in just a few minutes</p>
+        </div>
+        <div class="col-xl-4 ">
+            <span class="material-icons-outlined">
+                fingerprint
+                </span>
+
+                <h3>Verify your account</h3>
+                    <p>In accordance with Anti-Money Laundering regulations, to prevent potential fraud and ensure safety and reliability of clients' funds, AltcoinBinaryOption requests the following documents from its customers.</p>
+        </div>
+        <div class="col-xl-4 ">
+            <span class="material-icons-round">
+                account_balance
+                </span>
+
+                <h3>Make a deposit to your account</h3>
+                    <p>In order to start trading you should make a deposit. With AltcoinBinaryOption you can start with $100 minimum deposit!</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-xl-2"></div>
+
+<div class="col-12 p-xl-5 bg-dark">
+    <center>
+        <h1>
+          <b><span class="text-info">ABOUT</span> <span class="text-secondary">US</span></b>
+        </h1>
+  
+      <p class="text-white">ALTCOINBINARYOPTION TRADE IS ONE OF THE FASTEST GROWING ONLINE TRADING BRANDS IN THE WORLD, WE OFFER CFDS ON STOCKS AND ETFS, FOREX TRADING, AND THE EXCLUSIVE ALTCOINBINARYOPTION PRODUCT CALLED DIGITAL OPTIONS.</p>
+       
+      <hr>
+  
+    </center>
+
+    <div class="row">
+        <div class="col-xl-2"></div>
+        <div class="col-xl-8">
+            <div class="card mb-3 bg-light" >
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img src="{{url_for('static', filename='imgs/users/pexels-tima-miroshnichenko-7567559.jpg')}}" height="100%" width="100%" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h1 class="card-title">WE ARE ROOTCOIN</h1>
+                      <p class="card-text">AltcoinBinaryOption Trade has grown massively, and now has over 5 million
+                         members and counting! The platform itself has also undergone some changes since 2018,
+                         and we are constantly working to ensure it is fast, accurate and easy to use. We have also refined
+                         our offering and introduced plenty of new products in our bid to continue giving our customers 
+                         the ultimate online trading experience and to help them optimize their investment portfolio. Now, 
+                         using our platform, our members can try CFDs on currency pairs, CFDs on stocks, CFDs on commodities, 
+                         CFDs on cryptocurrencies, CFDs on ETFs, as well as Binary and Digital Options.
+                      </p>
+
+                      <div class="d-flex align-items-start p-xl-3">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                          <button class="nav-link active" id="v-pills-mission-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mission" type="button" role="tab" aria-controls="v-pills-mission" aria-selected="true">MISSION</button>
+                          <button class="nav-link" id="v-pills-advantages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-advantages" type="button" role="tab" aria-controls="v-pills-advantages" aria-selected="false">ADVANTAGES</button>
+                          <button class="nav-link" id="v-pills-gaurantees-tab" data-bs-toggle="pill" data-bs-target="#v-pills-gaurantees" type="button" role="tab" aria-controls="v-pills-gaurantees" aria-selected="false">GAURANTEES</button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                          <div class="tab-pane fade show active" id="v-pills-mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">AltcoinBinaryOption Trade’s mission is to make trading flexible</div>
+                          <div class="tab-pane fade" id="v-pills-advantages" role="tabpanel" aria-labelledby="v-pills-advantages-tab">Our mission as an official partner of Bitcoin Foundation is to help you enter and better understand the world of #1 cryptocurrency and avoid any issues you may encounter.</div>
+                          <div class="tab-pane fade" id="v-pills-gaurantees" role="tabpanel" aria-labelledby="v-pills-gaurantees-tab">We are here because we are passionate about open, transparent markets and aim to be a major driving force in widespread adoption, we are the first and the best in cryptocurrency.</div>
+                        </div>
+                      </div>
+
+                      <p>
+                        Our mission as an official partner of Bitcoin Foundation is to help you enter and better understand the world of #1 cryptocurrency and avoid any issues you may encounter.
+                      </p>
+                      <p class="card-text"><small class="text-muted"><a href="#"><button type="button" class="btn btn-outline-info me-xl-2">JOIN US</button></a></small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-xl-2"></div>
+    </div>
+</div>
+
+
+
+{% endblock %}

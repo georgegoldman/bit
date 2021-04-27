@@ -11,7 +11,7 @@ user = Blueprint('user',__name__)
 
 @user.route('/')
 def userery():
-    return 'bit'
+    return render_template('home.html')
 
 
 
